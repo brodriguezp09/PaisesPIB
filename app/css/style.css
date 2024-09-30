@@ -48,7 +48,29 @@ h2 {
 #DisplayPaises{
     margin-left: 10px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
    
+}
+#DisplayPaisesHead{
+    margin-left: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#divPaises{
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.showPais{
+    width: 90%;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
 }
